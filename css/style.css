@@ -55,6 +55,7 @@ body {
 .contact-header-svg {
   width: 16px;
   height: 14px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link {
   font-weight: var(--font-weight);
@@ -63,6 +64,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover,
 .contact-header:hover,
@@ -87,6 +89,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-content {
@@ -139,12 +142,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--background-color);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-footer:hover {
   color: var(--hover-color);
 }
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #titleFooter {
   font-weight: 700;
@@ -167,6 +172,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-icons-footer use {
   fill: #fff;
@@ -306,6 +312,8 @@ h1 {
   height: 44px;
   border-radius: 50%;
   margin-bottom: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-staff-item:hover,
 .icons-staff-item:focus {
@@ -364,6 +372,8 @@ h1 {
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .regular-customers-window:hover,
 .regular-customers-window:focus {
@@ -383,6 +393,9 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   border-style: unset;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons:hover {
   color: var(--background-color);
@@ -410,6 +423,7 @@ h1 {
   display: flex;
   flex-direction: column;
   border: 1px solid #eeeeee;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .projects:hover,
 .projects:focus {
