@@ -16,6 +16,17 @@
     />
   </head>
   <body>
+    <section>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="hero-modal-window">
+          <button type="button" class="close-button" data-modal-close>
+            <svg width="28px" height="28px">
+              <use href="images/icons-svg.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
     <div>
       <header class="hero-container">
         <a class="logo" href="index.html"
@@ -58,7 +69,7 @@
         <section>
           <div class="main-banner">
             <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button class="button-index-page">
+            <button class="button-index-page" type="button" data-modal-open>
               <p>Request our Service</p>
             </button>
           </div>
@@ -454,5 +465,6 @@
         </div>
       </footer>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
