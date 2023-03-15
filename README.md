@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-repository for theme 5
+# goit-markup-hw-06
+Repository for goit theme 6
